@@ -1,5 +1,6 @@
 {
   "homepage": "https://Basudev008.github.io/Album-CRUD/",
+  "proxy": "https://localhost:3000",
   "name": "albums-collection",
   "version": "0.1.0",
   "private": true,
