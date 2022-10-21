@@ -1,6 +1,4 @@
 {
-  "homepage": "https://Basudev008.github.io/Album-CRUD/",
-  "proxy": "http://localhost:5000/",
   "name": "albums-collection",
   "version": "0.1.0",
   "private": true,
@@ -16,12 +14,9 @@
     "react-scripts": "5.0.1",
     "redux": "^4.2.0",
     "redux-thunk": "^2.4.1",
-    "serve": "^14.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
