@@ -17,7 +17,6 @@ class App extends React.Component {
             <Route exact path="/" element={<Home />} />
             <Route exact path="/update" element={<UpdateAlbum />} />
             <Route exact path="/add-album" element={<AddAlbum />} />
-            <Route exact path="*" element={<Page404 />} />
           </Routes>
         </Router>
       </div>
