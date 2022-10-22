@@ -41,6 +41,10 @@ code {
   justify-content: left;
 }
 
+.header div:nth-child(3) {
+  justify-content: center;
+}
+
 .navbar {
   width: 60%;
   display: flex;
