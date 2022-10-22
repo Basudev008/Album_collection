@@ -18,8 +18,6 @@ function UpdateAlbum() {
   const handleChange = (type, value) => {
     if (type === "userId") {
       userId = value;
-    } else if (type === "id") {
-      id = value;
     } else if (type === "title") {
       title = value;
     }
@@ -28,14 +26,6 @@ function UpdateAlbum() {
   return (
     // contains three inputs for id, userId, title and last div for update album button
     <div className="middle-box">
-      <div>
-        <label>ID:</label>
-        <input
-          name="id"
-          placeholder={id}
-          onChange={(e) => handleChange("id", e.target.value)}
-        />
-      </div>
       <div>
         <label>USER ID:</label>
         <input
