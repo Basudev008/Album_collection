@@ -31,11 +31,14 @@ code {
 
 .album-item div {
   width: 33%;
-  text-align: left;
   display: flex;
   justify-content: center;
   align-items: center;
   border: 1px solid black;
+}
+
+.album-item div:nth-child(3) {
+  justify-content: left;
 }
 
 .navbar {
