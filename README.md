@@ -3,6 +3,8 @@
 This project is used to handle a collection of albums in which we can fetch, add, update and delete albums using api call.
 This project has utilized functionalities from redux, react-router-dom and thunk libraries.
 
+Hosted URL: https://main--album-collection.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
