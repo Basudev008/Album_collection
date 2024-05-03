@@ -27,7 +27,7 @@ function UpdateAlbum() {
     // contains three inputs for id, userId, title and last div for update album button
     <div className="middle-box">
       <div>
-        <label>USER ID:</label>
+        <label>USER ID : </label>
         <input
           name="userId"
           placeholder={userId}
@@ -35,7 +35,7 @@ function UpdateAlbum() {
         />
       </div>
       <div>
-        <label>TITLE:</label>
+        <label>TITLE : </label>
         <input
           name="title"
           placeholder={title}

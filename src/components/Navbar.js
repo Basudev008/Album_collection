@@ -7,7 +7,7 @@ class Navbar extends Component {
     return (
       <div className="navbar">
         {/* contains three div - app title, add album button and message div which is based on conditional rendering */}
-        <div>Album-Collection</div>
+        <div className="app-title"><Link to="/">Album-Collection</Link></div>
         <div>
           <Link to="/add-album">
             <button>ADD ALBUM</button>

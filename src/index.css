@@ -1,21 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Pacifico&family=Suez+One&family=Walter+Turncoat&display=swap');
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Suez One;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.app-title a{
+  text-decoration: none;
 }
 
 .album-item {
   width: 50%;
   display: flex;
-  background-color: rgb(125, 59, 39);
+  background-color: rgb(29, 46, 160);
   justify-content: space-between;
   color: azure;
   height: 5rem;
@@ -26,15 +22,14 @@ code {
   background-color: blueviolet;
   color: aliceblue;
   font-size: 20px;
-  font-family: sans-serif;
 }
 
 .album-item div {
-  width: 33%;
+  width: 25%;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
+  border: 1px solid rgb(13, 15, 3);
 }
 
 .album-item div:nth-child(3) {
@@ -57,7 +52,6 @@ code {
 .navbar div {
   width: 49%;
   font-size: 2rem;
-  font-family: monospace;
   color: aliceblue;
   text-align: left;
   display: flex;
@@ -67,7 +61,6 @@ code {
 
 .navbar div button {
   padding: 0.5rem;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 1.25rem;
 }
 
@@ -108,21 +101,35 @@ code {
   background-color: darkcyan;
   width: 25%;
   border-radius: 5px;
-  justify-content: center;
-  align-items: center;
 }
 
 .middle-box div {
+  display: flex;
+  justify-content: space-around;
   margin: 0.5rem;
-}
-
-.middle-box div label {
-  margin-right: 0.25rem;
 }
 
 .middle-box button {
   margin: 20px;
   padding: 15px;
-  font-family: serif;
   font-size: 1.25rem;
+}
+
+.album-title {
+  overflow-wrap: break-word;
+  padding: 6px;
+}
+
+button {
+  font-family: Walter Turncoat;
+}
+
+.middle-box div label{
+  display: flex;
+  width: 25%;
+}
+
+.middle-box div input{
+  display: flex;
+  width: 60%;
 }

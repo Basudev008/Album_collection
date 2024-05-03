@@ -19,7 +19,7 @@ class Album extends Component {
       <div className="album-item">
         <div>{this.props.album.id}</div>
         <div>{this.props.album.userId}</div>
-        <div>{this.props.album.title}</div>
+        <div><span className="album-title">{this.props.album.title}</span></div>
         <div className="ud-operation">
           {/* Link tag is used with update button to navigate to Update Album component */}
           <Link to="/update" state={toPathWithProps}>
